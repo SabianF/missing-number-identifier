@@ -2,7 +2,7 @@
 
 An algorithm to find a missing number from an array of non-duplicate numbers greater than 0 and less than the size of the array
 
-I got inspired to write this after watching [ThePrimeAgen's video on XOR](https://youtu.be/YNObatXvhZc)
+I got inspired to write this after watching [ThePrimeAgen's video on XOR](https://youtu.be/YNObatXvhZc) up until the 19-minute mark.
 
 Then, I thought "Why do we need to iterate through the arrays twice with O(2n) complexity? Can we do it in 1 iteration?"
 
@@ -23,3 +23,5 @@ So, I spent a bit of time trying to figure out an algorithm to do it in one pass
     - Each item in the array
     - The above 2 values together
 - This way, it performs all necessary XOR operations in a single for loop
+
+Hilariously, once I continued watching Prime's video up until the [21-minute mark](https://youtu.be/YNObatXvhZc?t=1251), I saw that he had the exact same idea, and I was so excited to see that.
